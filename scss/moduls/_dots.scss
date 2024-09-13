@@ -1,0 +1,20 @@
+.dots {
+  display: flex;
+  align-items: center;
+  &__item {
+    border-radius: 12px;
+    background-color: rgb(212, 219, 227);
+    width: 100%;
+    max-width: 12px;
+    height: 6px;
+    margin-right: 6px;
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &.active {
+      max-width: 96px;
+      background-color: rgb(var(--color-3));
+    }
+  }
+}

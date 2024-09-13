@@ -1,0 +1,17 @@
+body {
+  background-color: #fafafa;
+  color: rgb(var(--color-3));
+  font-family: var(--font-text-1);
+  font-weight: normal;
+  position: relative;
+  &.lock {
+    overflow: hidden;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

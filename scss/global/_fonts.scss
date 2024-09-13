@@ -1,0 +1,26 @@
+//font-family: "Montserrat", sans-serif;
+//font-family: 'MursGothic-WideDark', sans-serif;
+//font-family: 'EBGaramond-Bold', sans-serif;
+
+@font-face {
+  font-family: 'MursGothic-WideDark';
+  src: url('../fonts/MursGothic-WideDark.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/MursGothic-WideDark.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/MursGothic-WideDark.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/MursGothic-WideDark.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/MursGothic-WideDark.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/MursGothic-WideDark.svg#MursGothic-WideDark')
+      format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'EBGaramond-Bold';
+  src: url('../fonts/ebgaramond-bold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/ebgaramond-bold.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/ebgaramond-bold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/ebgaramond-bold.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/ebgaramond-bold.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/ebgaramond-bold.svg#ebgaramond-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}

@@ -1,0 +1,46 @@
+.btn {
+  background-color: rgba(var(--color-1), 1);
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 18px 10px;
+  width: 100%;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: rgba(var(--color-1), 0.8);
+  }
+
+  &--color-2 {
+    background-color: rgb(var(--color-2));
+
+    &:hover {
+      background-color: rgba(var(--color-2), 0.8);
+    }
+  }
+
+  &--color-3 {
+    background-color: #fff;
+    color: rgb(var(--color-3));
+    border: 1px solid rgb(var(--color-3));
+
+    &:hover {
+      background-color: rgba(var(--color-3), 0.8);
+      color: #fff;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .btn {
+    font-size: 14px;
+  }
+}
