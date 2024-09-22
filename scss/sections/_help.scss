@@ -30,10 +30,10 @@
   }
 
   &__item-info-img {
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 160%;
-    letter-spacing: 0%;
+    display: flex;
+    max-width: 60px;
+    width: 100%;
+    margin: 0 auto 15px;
   }
 
   &__item-info-text {

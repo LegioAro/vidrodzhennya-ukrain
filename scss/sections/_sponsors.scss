@@ -1,0 +1,149 @@
+.sponsors {
+  padding: 125px 0;
+  margin-bottom: 287px;
+  background-color: rgb(var(--color-3));
+  color: #f6f7f9;
+
+  &__wrapper {
+  }
+
+  &__title {
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    margin-bottom: 54px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  &__slider-wrapper {
+    position: relative;
+  }
+
+  &__slider {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  &__item {
+    border-radius: 14px;
+    padding: 25px;
+    background-color: #f6f7f9;
+  }
+
+  &__item-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  &__item-logo {
+    display: flex;
+    width: 100%;
+    max-width: 45px;
+    margin-right: 25px;
+  }
+
+  &__item-title {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 125%;
+    color: #00275f;
+  }
+
+  &__item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #00275f;
+    margin-bottom: 20px;
+  }
+
+  &__item-contacts {
+  }
+
+  &__item-contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__item-contact-icon {
+    display: flex;
+    width: 100%;
+    max-width: 22px;
+    margin-right: 10px;
+  }
+
+  &__item-contact-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    color: rgb(var(--color-1));
+  }
+
+  &__slider-arrows {
+  }
+
+  &__slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    width: 100%;
+    max-width: 45px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    cursor: pointer;
+    display: none;
+  }
+
+  &__slider-arrow--prev {
+    right: calc(100% - 45px);
+  }
+
+  &__slider-arrow--next {
+    left: calc(100% - 45px);
+  }
+}
+
+@media (max-width: 1200px) {
+  .sponsors {
+    padding: 100px 0;
+    &__slider {
+      margin-bottom: 50px;
+    }
+    &__slider-arrows {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 120px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .sponsors {
+    &__slider-arrow {
+      position: static;
+      display: block;
+      transform: translateY(0);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .sponsors {
+    padding: 80px 0;
+  }
+}

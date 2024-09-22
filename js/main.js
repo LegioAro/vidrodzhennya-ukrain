@@ -39,3 +39,80 @@ window.addEventListener('resize', () => {
   isResize('.header__nav', '.header__content', '.burger', 768);
   isResize('.who__img-block', '.who__wrapper', '.who__mob', 768, 'first');
 });
+
+//sliders
+
+const swiper1 = new Swiper('.cover__slider', {
+  slidesPerView: 1,
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true,
+    speed: 5000,
+  },
+  autoplay: {
+    delay: 3000,
+  },
+});
+
+const swiper2 = new Swiper('.sponsors__slider', {
+  slidesPerView: 3,
+  spaceBetween: 30,
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    600: {
+      slidesPerView: 2,
+    },
+    950: {
+      slidesPerView: 3,
+    },
+  },
+
+  navigation: {
+    prevEl: '.sponsors__slider-arrow--prev',
+    nextEl: '.sponsors__slider-arrow--next',
+  },
+});
+
+const swiper3 = new Swiper('.documents__slider', {
+  slidesPerView: 3,
+  spaceBetween: 30,
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    500: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+  },
+
+  navigation: {
+    prevEl: '.documents__slider-arrow--prev',
+    nextEl: '.documents__slider-arrow--next',
+  },
+});
+
+const swiper4 = new Swiper('.slider', {
+  slidesPerView: 1,
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true,
+    speed: 5000,
+  },
+  autoplay: {
+    delay: 3000,
+  },
+
+  pagination: {
+    el: '.dots',
+    type: 'bullets',
+    bulletClass: 'dots__item',
+    bulletActiveClass: 'active',
+  },
+});

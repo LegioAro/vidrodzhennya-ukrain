@@ -1,0 +1,260 @@
+.desc {
+  margin-bottom: 139px;
+
+  &__wrapper {
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 68px;
+  }
+
+  &__tmpl {
+    padding: 48px;
+    border-radius: 20px;
+    background-color: #f6f7f9;
+  }
+
+  &__tmpl--2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    margin-bottom: 42px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__info {
+    min-width: 0;
+  }
+
+  &__info-text {
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    p {
+      margin-bottom: 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    p,
+    li {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 160%;
+      color: #61617e;
+    }
+    ul {
+      margin-bottom: 10px;
+      padding-left: 20px;
+      list-style: disc;
+      list-style-position: outside;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      li {
+        margin-bottom: 5px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  &__info-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: rgb(var(--color-3));
+    margin-bottom: 10px;
+  }
+
+  &__info-subtitle {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    color: rgb(var(--color-3));
+  }
+
+  &__info-download {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    svg {
+      width: 24px;
+      margin-right: 8px;
+    }
+    p {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 160%;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      color: rgb(var(--color-1));
+    }
+  }
+
+  &__info-btn {
+    max-width: 206px;
+  }
+
+  &__imgs {
+    margin-bottom: 53px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__imgs-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 27px;
+    grid-row-gap: 27px;
+    margin-bottom: 11px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__imgs-item {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  &__imgs-link {
+    display: inline-flex;
+    max-width: fit-content;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: rgb(var(--color-3));
+  }
+
+  &__progress {
+  }
+
+  &__progress-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 38px;
+  }
+
+  &__progress-item {
+    display: flex;
+    align-items: center;
+  }
+
+  &__progress-item-icon {
+    display: flex;
+    margin-right: 14px;
+    max-width: 30px;
+  }
+
+  &__progress-item-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgb(var(--color-3));
+    margin-right: 6px;
+  }
+
+  &__progress-item-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #61617e;
+  }
+
+  &__btns {
+    display: grid;
+    max-width: 413px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 15px;
+    height: fit-content;
+    margin: auto auto 34px;
+  }
+
+  &__btn {
+  }
+
+  .slider {
+    margin: 0 0 0 auto;
+
+    .dots {
+      margin-top: 46px;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .desc {
+    &__progress-info {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .desc {
+    &__tmpl--2 {
+      grid-template-columns: repeat(1, 1fr);
+
+      .slider {
+        max-width: 477px;
+        margin: 0 auto 30px;
+        order: -1;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .desc {
+    &__tmpl {
+      padding: 20px;
+    }
+    &__imgs {
+      align-items: center;
+    }
+    &__imgs-items {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 500px;
+      margin: 0 auto 40px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .desc {
+    &__imgs-items {
+      grid-template-columns: repeat(1, 1fr);
+      max-width: 300px;
+    }
+    &__btns {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    &__progress-item-icon {
+      max-width: 25px;
+    }
+    &__progress-item-title {
+      font-size: 14px;
+    }
+  }
+}

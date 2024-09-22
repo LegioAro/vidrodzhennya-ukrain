@@ -8,95 +8,20 @@
 @import './moduls/title';
 @import './moduls/btn';
 @import './moduls/dots';
+@import './moduls/slider';
+@import './moduls/progress';
 
 //Blocks
 @import './blocks/burger';
+@import './blocks/desc';
 
 //Sections
 @import './sections/header';
 @import './sections/cover';
+@import './sections/projects';
 @import './sections/who';
+@import './sections/sponsors';
 @import './sections/help';
+@import './sections/documents';
 @import './sections/footer';
 
-.footer {
-  background-color: rgb(var(--color-3));
-  padding: 35px 0;
-  &__wrapper {
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-  }
-
-  &__contacts {
-    margin-right: 20px;
-  }
-
-  &__contacts-title {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 160%;
-    letter-spacing: 0%;
-    text-transform: uppercase;
-  }
-
-  &__content {
-    display: flex;
-    align-items: center;
-  }
-
-  &__btns {
-    margin-right: 100px;
-  }
-
-  &__btn {
-    margin-bottom: 22px;
-    max-width: 250px;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-
-  &__logo {
-    display: flex;
-    width: 100%;
-    max-width: 97px;
-  }
-}
-
-@media (max-width: 768px) {
-  .footer {
-    &__wrapper {
-      flex-direction: column;
-    }
-    &__contacts {
-      margin-right: 0;
-      margin-bottom: 30px;
-    }
-    &__content {
-      justify-content: space-between;
-    }
-    &__btns {
-      margin-right: 20px;
-    }
-  }
-}
-
-@media (max-width: 400px) {
-  .footer {
-    &__contacts {
-      text-align: center;
-    }
-    &__content {
-      flex-direction: column;
-    }
-    &__btns {
-      margin-right: 0;
-      margin-bottom: 30px;
-    }
-    &__logo {
-      max-width: 50px;
-    }
-  }
-}

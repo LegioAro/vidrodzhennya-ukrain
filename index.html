@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="./css/swiper.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Відродження України</title>
   </head>
@@ -26,7 +27,7 @@
               <button class="header__nav-item">Контакти</button>
             </nav>
           </div>
-          <button class="header__btn btn">задонатити</button>
+          <button class="header__btn btn">обрати проект</button>
           <div class="burger__btn"><span></span></div>
         </div>
       </div>
@@ -38,7 +39,7 @@
         <div class="cover__wrapper">
           <div class="cover__content">
             <div class="cover__suptitle">Благодійний Фонд Віталіни Вознюк</div>
-            <div class="cover__title">Відродження України</div>
+            <div class="cover__title">Відновлення України</div>
             <div class="cover__text">
               Ми непереможні, коли діємо разом. Тому разом ми здатні творити дива.
             </div>
@@ -48,14 +49,60 @@
                 <div class="cover__btn-icon"><img src="./img/icons/play.svg" alt="" /></div>
               </button>
             </div>
-            <div class="dots">
-              <div class="dots__item active"></div>
-              <div class="dots__item"></div>
-              <div class="dots__item"></div>
-              <div class="dots__item"></div>
+          </div>
+          <div class="cover__slider">
+            <div class="swiper-wrapper">
+              <div class="cover__slider-item swiper-slide">
+                <img src="./img/cover/slider/1.png" alt="" />
+              </div>
+              <div class="cover__slider-item swiper-slide">
+                <img src="./img/cover/slider/2.png" alt="" />
+              </div>
+              <div class="cover__slider-item swiper-slide">
+                <img src="./img/cover/slider/3.png" alt="" />
+              </div>
+              <div class="cover__slider-item swiper-slide">
+                <img src="./img/cover/slider/4.png" alt="" />
+              </div>
+              <div class="cover__slider-item swiper-slide">
+                <img src="./img/cover/slider/5.png" alt="" />
+              </div>
+              <div class="cover__slider-item swiper-slide">
+                <img src="./img/cover/slider/6.png" alt="" />
+              </div>
             </div>
           </div>
-          <div class="cover__img"><img src="./img/cover/img.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="container">
+        <div class="projects__wrapper">
+          <div class="projects__title title">Наші проєкти</div>
+          <div class="projects__items">
+            <a href="" class="projects__item">
+              <div class="projects__item-img"><img src="./img/projects/items/1.png" alt="" /></div>
+              <div class="projects__item-title">По цеглині</div>
+              <div class="projects__item-text">відновлення пошкодженого житла</div>
+            </a>
+            <a href="" class="projects__item">
+              <div class="projects__item-img"><img src="./img/projects/items/2.png" alt="" /></div>
+              <div class="projects__item-title">Royal Teams</div>
+              <div class="projects__item-text">відкриття дитячих та підліткових клубів</div>
+            </a>
+            <a href="" class="projects__item">
+              <div class="projects__item-img"><img src="./img/projects/items/3.png" alt="" /></div>
+              <div class="projects__item-title">Оберіг</div>
+              <div class="projects__item-text">
+                відкриття центрів допомоги жінкам, сім'ям військових
+              </div>
+            </a>
+            <a href="" class="projects__item">
+              <div class="projects__item-img"><img src="./img/projects/items/4.png" alt="" /></div>
+              <div class="projects__item-title">Напрямок Капеланство</div>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -64,11 +111,13 @@
       <div class="container">
         <div class="who__wrapper">
           <div class="who__img-block">
-            <div class="who__img"><img src="./img/who/img.png" alt="" /></div>
             <div class="who__img-info">
-              <div class="who__img-title">Віталіна Вознюк</div>
-              <div class="who__img-text">Засновниця та візіонерка Фонду «Відродження України»</div>
+              <div class="who__img-title">Віталій та Віталіна Вознюк</div>
+              <div class="who__img-text">
+                Візіонери та засновники Всеукраїнського благодійного фонду «Відновлення України»
+              </div>
             </div>
+            <div class="who__img"><img src="./img/who/img.png" alt="" /></div>
           </div>
           <div class="who__content">
             <div class="who__title title">Хто ми і чому <span>допомагаємо</span></div>
@@ -100,6 +149,122 @@
       </div>
     </section>
 
+    <section class="sponsors">
+      <div class="container">
+        <div class="sponsors__wrapper">
+          <div class="sponsors__title title">Нам вже допомагають</div>
+          <div class="sponsors__subtitle">
+            Don't hesitate to join Elementa and experience a different chemistry learning
+            experience!
+          </div>
+          <div class="sponsors__slider-wrapper">
+            <div class="sponsors__slider">
+              <div class="swiper-wrapper">
+                <div class="sponsors__item swiper-slide">
+                  <div class="sponsors__item-header">
+                    <div class="sponsors__item-logo">
+                      <img src="./img/sponsors/items/1.png" alt="" />
+                    </div>
+                    <div class="sponsors__item-title">РГ «Еммануїл»</div>
+                  </div>
+                  <div class="sponsors__item-text">
+                    У нашій церкві ти зможеш духовно розвиватися, рости і рухатись у Божому
+                    покликанні для твого життя.
+                  </div>
+                  <div class="sponsors__item-contacts">
+                    <div class="sponsors__item-contact">
+                      <div class="sponsors__item-contact-icon">
+                        <img src="./img/sponsors/icons/site.svg" alt="" />
+                      </div>
+                      <div class="sponsors__item-contact-text">emmanuil.kiev.ua</div>
+                    </div>
+                    <div class="sponsors__item-contact">
+                      <div class="sponsors__item-contact-icon">
+                        <img src="./img/sponsors/icons/instagram.svg" alt="" />
+                      </div>
+                      <div class="sponsors__item-contact-text">churchemmanuil</div>
+                    </div>
+                    <div class="sponsors__item-contact">
+                      <div class="sponsors__item-contact-icon">
+                        <img src="./img/sponsors/icons/telegram.svg" alt="" />
+                      </div>
+                      <div class="sponsors__item-contact-text">emmanuilch</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sponsors__item swiper-slide">
+                  <div class="sponsors__item-header">
+                    <div class="sponsors__item-logo">
+                      <img src="./img/sponsors/items/2.png" alt="" />
+                    </div>
+                    <div class="sponsors__item-title">АСЕТ</div>
+                  </div>
+                  <div class="sponsors__item-text">
+                    Міжнародний благодійний альянс «АСЕТ International» засновано в Англії 1988 року
+                    доктором Патріком Діксоном.
+                  </div>
+                  <div class="sponsors__item-contacts">
+                    <div class="sponsors__item-contact">
+                      <div class="sponsors__item-contact-icon">
+                        <img src="./img/sponsors/icons/site.svg" alt="" />
+                      </div>
+                      <div class="sponsors__item-contact-text">acet.org.ua</div>
+                    </div>
+                    <div class="sponsors__item-contact">
+                      <div class="sponsors__item-contact-icon">
+                        <img src="./img/sponsors/icons/instagram.svg" alt="" />
+                      </div>
+                      <div class="sponsors__item-contact-text">acet_ukraine</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sponsors__item swiper-slide">
+                  <div class="sponsors__item-header">
+                    <div class="sponsors__item-logo">
+                      <img src="./img/sponsors/items/3.png" alt="" />
+                    </div>
+                    <div class="sponsors__item-title">РО Божа Церква ХВЄ України</div>
+                  </div>
+                  <div class="sponsors__item-text">
+                    У нашій церкві ти зможеш духовно розвиватися, рости і рухатись у Божому
+                    покликанні для твого життя.
+                  </div>
+                  <div class="sponsors__item-contacts">
+                    <div class="sponsors__item-contact">
+                      <div class="sponsors__item-contact-icon">
+                        <img src="./img/sponsors/icons/site.svg" alt="" />
+                      </div>
+                      <div class="sponsors__item-contact-text">emmanuil.kiev.ua</div>
+                    </div>
+                    <div class="sponsors__item-contact">
+                      <div class="sponsors__item-contact-icon">
+                        <img src="./img/sponsors/icons/instagram.svg" alt="" />
+                      </div>
+                      <div class="sponsors__item-contact-text">vozniuk.ministry</div>
+                    </div>
+                    <div class="sponsors__item-contact">
+                      <div class="sponsors__item-contact-icon">
+                        <img src="./img/sponsors/icons/telegram.svg" alt="" />
+                      </div>
+                      <div class="sponsors__item-contact-text">emmanuilch</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sponsors__slider-arrows">
+              <button class="sponsors__slider-arrow sponsors__slider-arrow--prev">
+                <img src="./img/icons/slider-arrow-l.svg" alt="" />
+              </button>
+              <button class="sponsors__slider-arrow sponsors__slider-arrow--next">
+                <img src="./img/icons/slider-arrow-r.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="help">
       <div class="container">
         <div class="help__wrapper">
@@ -107,7 +272,7 @@
           <div class="help__items">
             <div class="help__item">
               <div class="help__item-info">
-                <div class="help__item-info-img">💳</div>
+                <div class="help__item-info-img"><img src="./img/help/items/1.png" alt="" /></div>
                 <div class="help__item-info-text">
                   Зробити пожертву до проекту, який надихнув на гарну справу
                 </div>
@@ -117,7 +282,7 @@
 
             <div class="help__item">
               <div class="help__item-info">
-                <div class="help__item-info-img">✊</div>
+                <div class="help__item-info-img"><img src="./img/help/items/2.png" alt="" /></div>
                 <div class="help__item-info-text">
                   Стати нашим партнером і допомагати з комфортною регулярністю
                 </div>
@@ -127,12 +292,12 @@
 
             <div class="help__item">
               <div class="help__item-info">
-                <div class="help__item-info-img">📦</div>
+                <div class="help__item-info-img"><img src="./img/help/items/3.png" alt="" /></div>
                 <div class="help__item-info-text">
                   Запропонувати продукцію, волонтерство, послуги інші ресурси
                 </div>
               </div>
-              <button class="help__item-btn btn btn--color-3">Обрати проект</button>
+              <button class="help__item-btn btn btn--color-3">Бажаю допомогти</button>
             </div>
           </div>
           <div class="help__desc">
@@ -153,24 +318,264 @@
       </div>
     </section>
 
+    <section class="documents">
+      <div class="container">
+        <div class="documents__wrapper">
+          <div class="documents__title title">Документи</div>
+          <div class="documents__slider-wrapper">
+            <div class="documents__slider">
+              <div class="swiper-wrapper">
+                <a href="" target="_blank" class="documents__slider-item swiper-slide"
+                  ><img src="./img/documents/1.jpg" alt=""
+                /></a>
+                <a href="" target="_blank" class="documents__slider-item swiper-slide"
+                  ><img src="./img/documents/2.jpg" alt=""
+                /></a>
+                <a href="" target="_blank" class="documents__slider-item swiper-slide"
+                  ><img src="./img/documents/3.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="documents__slider-arrows">
+              <button class="documents__slider-arrow documents__slider-arrow--prev">
+                <img src="./img/icons/slider-arrow-d-l.svg" alt="" />
+              </button>
+              <button class="documents__slider-arrow documents__slider-arrow--next">
+                <img src="./img/icons/slider-arrow-d-r.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="desc">
+      <div class="container">
+        <div class="desc__wrapper">
+          <div class="desc__title title">
+            Проекти, які потребують допомоги <span>найближчим часом</span>
+          </div>
+          <div class="desc__tmpl">
+            <div class="desc__tmpl--2">
+              <div class="desc__info">
+                <div class="desc__info-title">ГОСПІТАЛЬНЕ КАПЕЛАНСТВО</div>
+                <div class="desc__info-text">
+                  <p>
+                    Команди капеланів несуть служіння у військових шпиталях та лікарнях, де оперують
+                    наших героїв, піднімаючи їхнє патріотичне почуття та бойовий дух на основі
+                    морального і духовного потенціалу релігійної та культурної спадщини українського
+                    народу.
+                  </p>
+                  <p>
+                    На сьогоднішній день наші капелани на постійній основі відвідують Національний
+                    військово-медичний клінічний центр «Головний військовий клінічний госпіталь»,
+                    Центр Екстреної Медичної Допомоги, КНП "Олександрівська клінічна лікарня міста
+                    Києва" та інші медичні заклади.
+                  </p>
+                </div>
+              </div>
+
+              <div class="desc__info">
+                <div class="desc__info-text">
+                  <p>Враховуючи тяжкість поранень, які мають військові, маємо потребу у:</p>
+                  <ul>
+                    <li>
+                      апаратах Confort NPWT C-300, обладнання, вакуумні набори до нього та
+                      контейнери;
+                    </li>
+                    <li>
+                      наборах перев’язувальних для вакуумної терапії ран КСІ Granufoam Medium
+                      Dressings 18х13х3,3 см;
+                    </li>
+                    <li>
+                      каністрах для вакуумної терапії, Bemis (універсальні) Hi-Flow Suction Canister
+                      1200 ml);
+                    </li>
+                    <li>трахеостомічних трубках з манжетою, розмір 7,5;</li>
+                    <li>харчових продуктах для спеціальних медичних цілей.</li>
+                  </ul>
+                  <p>
+                    Даний перелік обладнання наразі є необхідним та актуальним на постійній основі
+                    (з мінімальним розрахунком 10 одиниць на тиждень)
+                  </p>
+                  <p>Рятуймо життя наших захисників та захисниць разом!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="desc__imgs">
+              <div class="desc__imgs-items">
+                <div class="desc__imgs-item"><img src="./img/desc/2/1.jpg" alt="" /></div>
+                <div class="desc__imgs-item"><img src="./img/desc/2/2.jpg" alt="" /></div>
+                <div class="desc__imgs-item"><img src="./img/desc/2/3.jpg" alt="" /></div>
+                <div class="desc__imgs-item"><img src="./img/desc/2/4.jpg" alt="" /></div>
+              </div>
+              <a href="" class="desc__imgs-link">бiльше проєктiв</a>
+            </div>
+
+            <div class="desc__tmpl--2">
+              <div class="desc__progress">
+                <div class="desc__progress-info">
+                  <div class="desc__progress-item">
+                    <div class="desc__progress-item-icon">
+                      <img src="./img/desc/2/icon/money.svg" alt="" />
+                    </div>
+                    <div class="desc__progress-item-title">Бюджет:</div>
+                    <div class="desc__progress-item-text">250 000 грн</div>
+                  </div>
+                  <div class="desc__progress-item">
+                    <div class="desc__progress-item-icon">
+                      <img src="./img/desc/2/icon/calendar.svg" alt="" />
+                    </div>
+                    <div class="desc__progress-item-title">Срок реалізації:</div>
+                    <div class="desc__progress-item-text">1.11.2024</div>
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <div class="progress__num-wrapper">
+                    <div class="progress__num">
+                      <div class="progress__num-all">1 200 000$</div>
+                      /
+                      <div class="progress__num-now">1 200 000$</div>
+                    </div>
+                  </div>
+
+                  <div class="progress__bar">
+                    <div class="progress__bar-line" style="max-width: 20%"></div>
+                    <div class="progress__bar-num">20%</div>
+                  </div>
+                  <div class="progress__info">
+                    <p>1.05.2024</p>
+                    <p>1.11.2024</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="desc__btns">
+                <a href="" class="desc__btn btn">пожертвувати</a>
+                <a href="" class="desc__btn btn btn--color-2">стати партнером</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="desc">
+      <div class="container">
+        <div class="desc__wrapper">
+          <div class="desc__title title">
+            Проекти, які фонд «Відродження України» вже реалізував <span>із вашою допомогою</span>
+          </div>
+          <div class="desc__tmpl">
+            <div class="desc__tmpl--2">
+              <div class="desc__info">
+                <div class="desc__info-title">ГОСПІТАЛЬНЕ КАПЕЛАНСТВО</div>
+                <div class="desc__info-text">
+                  <p>
+                    Висловлюємо слова щирої вдячності за допомогу у придбанні вакуумних наборів для
+                    швидкого загоєння ран при ампутації для наших військових, які отримали тяжкі
+                    поранення, боронячи Україну від ворога!
+                  </p>
+                  <p>
+                    Дякуємо усім нашим партнерам та кожному, хто донатить та не залишається байдужим
+                    у цей нелегкий для нашої країни час
+                  </p>
+
+                  <p>Безмежна вдячність за ваші відкриті серця та вчасно надану допомогу</p>
+                  <p>До тако-то мед установи було переслано стільки то такого-то обладнання</p>
+                </div>
+
+                <div class="desc__info-subtitle">Чеки/суми</div>
+                <a href="" class="desc__info-download"
+                  ><svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4 4C4 2.89543 4.89543 2 6 2H9.42105C11.0779 2 12.4211 3.34315 12.4211 5V7.5C12.4211 8.88071 13.5403 10 14.9211 10H17C18.6569 10 20 11.3431 20 13V20C20 21.1046 19.1046 22 18 22H6C4.89543 22 4 21.1046 4 20V4Z"
+                      stroke="#009492"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M4 4C4 2.89543 4.89543 2 6 2H9.23393C11.5937 2 13.8332 3.04186 15.3532 4.84691L18.1193 8.13163C19.3339 9.57399 20 11.399 20 13.2847V20C20 21.1046 19.1046 22 18 22H6C4.89543 22 4 21.1046 4 20V4Z"
+                      stroke="#009492"
+                      stroke-width="2"
+                    />
+                  </svg>
+                  <p>скачати звітність</p></a
+                >
+                <button class="desc__info-btn btn">бiльше проєктiв</button>
+              </div>
+              <div class="slider">
+                <div class="swiper-wrapper">
+                  <div class="slider__item swiper-slide">
+                    <img src="./img/desc/1/1.jpg" alt="" />
+                  </div>
+                  <div class="slider__item swiper-slide">
+                    <img src="./img/desc/1/2.jpg" alt="" />
+                  </div>
+                  <div class="slider__item swiper-slide">
+                    <img src="./img/desc/1/3.jpg" alt="" />
+                  </div>
+                  <div class="slider__item swiper-slide">
+                    <img src="./img/desc/1/4.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="dots"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer class="footer">
       <div class="container">
         <div class="footer__wrapper">
           <div class="footer__contacts">
-            <div class="footer__contacts-title">НАШІ КОНТАКТИ</div>
-          </div>
-          <div class="footer__content">
-            <div class="footer__btns">
-              <button class="footer__btn btn">Обрати проект</button>
-              <button class="footer__btn btn btn--color-2">Зробити пожертву</button>
+            <div class="footer__logo"><img src="./img/logo-light.svg" alt="" /></div>
+            <div class="footer__contacts-block">
+              <div class="footer__contacts-items">
+                <a href="tel:+380985673322" class="footer__contact">+38 (098) 567 33 22</a>
+                <a href="mailto:vozniuk.foundation@gmail.com" class="footer__contact"
+                  >vozniuk.foundation@gmail.com</a
+                >
+              </div>
+              <div class="footer__contacts-links">
+                <a href="" class="footer__contacts-link"
+                  ><img src="./img/icons/telegram.svg" alt=""
+                /></a>
+                <a href="" class="footer__contacts-link"
+                  ><img src="./img/icons/instagram.svg" alt=""
+                /></a>
+                <a href="" class="footer__contacts-link"
+                  ><img src="./img/icons/facebook.svg" alt=""
+                /></a>
+              </div>
             </div>
-            <div class="footer__logo"><img src="./img/footer/logo.svg" alt="" /></div>
+          </div>
+          <div class="footer__documents">
+            <div class="footer__documents-block">
+              <a href="" class="footer__document">Договір оферти</a>
+              <a href="" class="footer__document">Політика конфіденційності </a>
+            </div>
+            <div class="footer__documents-block">
+              <a href="" class="footer__document">Виписка з державношл реєстра</a>
+              <a href="" class="footer__document">Витяг</a>
+              <a href="" class="footer__document">Статут</a>
+            </div>
           </div>
         </div>
       </div>
     </footer>
 
     <script src="./js/resize.js"></script>
+    <script src="./js/swiper.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>

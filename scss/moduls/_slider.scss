@@ -1,0 +1,12 @@
+.slider {
+  min-width: 0;
+  max-width: 477px;
+  width: 100%;
+  height: fit-content;
+
+  &__item {
+    display: flex;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+}
