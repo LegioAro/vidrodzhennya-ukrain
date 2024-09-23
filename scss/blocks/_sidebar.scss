@@ -1,0 +1,25 @@
+.sidebar {
+  position: sticky;
+  top: 100px;
+  &__wrapper {
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 262px;
+    grid-column-gap: 38px;
+    margin: 0 auto 100px;
+
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 800px) {
+  .sidebar {
+    order: -1;
+    position: static;
+    margin-bottom: 40px;
+    &__wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+}

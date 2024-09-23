@@ -10,10 +10,15 @@
 @import './moduls/dots';
 @import './moduls/slider';
 @import './moduls/progress';
+@import './moduls/breadcrumbs';
 
 //Blocks
+@import './blocks/main';
 @import './blocks/burger';
 @import './blocks/desc';
+@import './blocks/acordeon';
+@import './blocks/sidebar';
+@import './blocks/sidebar-links';
 
 //Sections
 @import './sections/header';
@@ -21,7 +26,9 @@
 @import './sections/projects';
 @import './sections/who';
 @import './sections/sponsors';
+@import './sections/valuables';
 @import './sections/help';
 @import './sections/documents';
+@import './sections/project-content';
+@import './sections/project-items';
 @import './sections/footer';
-

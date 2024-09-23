@@ -19,3 +19,6 @@ body {
 .swiper-slide {
   transition-duration: 1000ms !important;
 }
+.swiper-pagination-lock {
+  display: flex;
+}
