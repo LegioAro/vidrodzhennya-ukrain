@@ -22,9 +22,9 @@
           <div class="header__content">
             <div class="header__logo"><img src="./img/header/logo.svg" alt="" /></div>
             <nav class="header__nav">
-              <button class="header__nav-item">Проекти</button>
-              <button class="header__nav-item">Про Фонд</button>
-              <button class="header__nav-item">Контакти</button>
+              <button class="header__nav-item" data-scroll-smooth="projects">Проекти</button>
+              <button class="header__nav-item" data-scroll-smooth="who">Про Фонд</button>
+              <button class="header__nav-item" data-scroll-smooth="footer">Контакти</button>
             </nav>
           </div>
           <!-- <a href="./projects/index.html" class="header__btn btn">обрати проект</a> -->
@@ -76,7 +76,7 @@
       </div>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="container">
         <div class="projects__wrapper">
           <div class="projects__title title">Наші проєкти</div>
@@ -107,7 +107,7 @@
       </div>
     </section>
 
-    <section class="who">
+    <section class="who" id="who">
       <div class="container">
         <div class="who__wrapper">
           <div class="who__img-block">
@@ -619,6 +619,8 @@
               <!-- <a href="" class="desc__imgs-link">бiльше проєктiв</a> -->
             </div>
 
+            <a href="" class="desc__btn btn">пожертвувати</a>
+
             <!-- <div class="desc__tmpl--2">
               <div class="desc__progress">
                 <div class="desc__progress-info">
@@ -740,7 +742,7 @@
       </div>
     </div>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="container">
         <div class="footer__wrapper">
           <div class="footer__contacts">
@@ -767,8 +769,12 @@
           </div>
           <div class="footer__documents">
             <div class="footer__documents-block">
-              <a href="./terms/offer.pdf" target="_blank" class="footer__document">Договір оферти</a>
-              <a href="./terms/policy.pdf" target="_blank" class="footer__document">Політика конфіденційності </a>
+              <a href="./terms/offer.pdf" target="_blank" class="footer__document"
+                >Договір оферти</a
+              >
+              <a href="./terms/policy.pdf" target="_blank" class="footer__document"
+                >Політика конфіденційності
+              </a>
             </div>
             <div class="footer__documents-block">
               <a href="./documents/Фонд.pdf" target="_blank" class="footer__document"
